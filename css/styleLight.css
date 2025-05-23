@@ -17,19 +17,6 @@ body{
     flex-direction: column;
 }
 
-.dark-bg-main{
-    background-color: #000000e0;
-}
-.dark-container-bg-img{
-    background-color: #000;
-}
-.dark-bg-form{
-    background-color: #000;
-}
-.dark-button-form{
-    background-color: aliceblue; color: #000;
-}
-
 main{
     height: 100%;
 }
@@ -78,6 +65,9 @@ form{
     margin-top: 5%;
     justify-content: space-between;
 }
+#container-remember label{
+    cursor: pointer;
+}
 #container-remember a, #container-remember {
     color: #FFFFFF;
     text-decoration: none;
@@ -93,6 +83,7 @@ form{
     border: none;
     font-size: 16px;
     color: #FFFFFF;
+    cursor: pointer;
     background-color: #202D11;
 }
 .icone-input{

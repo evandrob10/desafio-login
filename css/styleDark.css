@@ -66,6 +66,9 @@ form{
     margin-top: 5%;
     justify-content: space-between;
 }
+#container-remember label{
+    cursor: pointer;
+}
 #container-remember a, #container-remember {
     color: #FFFFFF;
     text-decoration: none;
@@ -79,9 +82,10 @@ form{
     width: 95%;
     padding: 2%;
     border: none;
-    font-size: 16px;
-    background-color: aliceblue; 
     color: #000;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: aliceblue; 
 }
 .icone-input{
     width: 20px;
