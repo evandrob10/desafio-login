@@ -14,6 +14,9 @@ body{
     justify-content: center;
     flex-direction: column;
 }
+.animation-form{
+    animation: formAnimantion 1s ease-in-out;
+}
 main{
     height: 100%;
 }
@@ -57,6 +60,7 @@ form{
 #container-remember label{
     cursor: pointer;
 }
+
 #container-remember a, #container-remember {
     text-decoration: none;
 }
@@ -91,9 +95,20 @@ svg{
     right: 30px;
     cursor: pointer;
 }
-
-svg:hover{
+/* ANIMATION */
+svg:hover,
+#container-remember a:hover{
     scale: 1.1;
+}
+#container-button button:hover{
+    scale: 1.02;
+}
+@keyframes formAnimantion {
+    from{
+        opacity: 0;
+    }to{
+        opacity: 100%;
+    }
 }
 /* RESPONSIVO */
 @media screen and (min-width: 576px){
