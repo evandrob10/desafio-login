@@ -1,104 +1,21 @@
-/*CSS GLOBAL*/
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-/**/
-body{
-    height: 100vh;
-}
-
-.flex{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-main{
-    height: 100%;
-}
-
+/* Modelo DARK */
 form{
-    width: 90%;
-    max-width: 350px;
-    min-height: 300px;
-    max-height: 576px;
-    position: relative;
-    border-radius: .7em;
-
     border: 2px solid #FFFFFF;
     background-color: #8F997E;
 }
-
 #container-image{
-    top: -18%;
-    padding: 15px;
-    border-radius: 50%;
-    position:absolute;
     background-color: #202D11;
-}
-#container-image img{
-    width: 70px;
-    padding: 10px;
-}
-
-#container-input{
-    width: 95%;
-    margin-top: 15%;
-}
-
-#container-input input{
-    width: 100%;
-    height: 100%;
-    border: none;
-    padding: 1% 1%;
-    font-size: 20px;
-    margin-bottom: 2%;
-}
-
-#container-remember{
-    width: 85%;
-    display: flex;
-    margin-top: 5%;
-    justify-content: space-between;
-}
-#container-remember label{
-    cursor: pointer;
 }
 #container-remember a, #container-remember {
     color: #FFFFFF;
-    text-decoration: none;
-}
-#container-button{
-    width: 95%;
-    margin-top: 30px;
-    text-align: center;
 }
 #container-button button{
-    width: 95%;
-    padding: 2%;
-    border: none;
-    font-size: 16px;
     color: #FFFFFF;
-    cursor: pointer;
     background-color: #202D11;
 }
 .icone-input{
-    width: 20px;
-    height: 80%;
     background-color: #FFFFFF;
 }
-
-#container-input div{
-    width: 95%;
-    display: flex;
-    margin-bottom: 2%;
-}
 #container-input div img{
-    width: 12%;
-    padding: 2% 3%;
     background-color: #FFFFFF;
 }
