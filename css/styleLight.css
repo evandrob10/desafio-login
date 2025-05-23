@@ -35,8 +35,10 @@ main{
 }
 
 form{
-    width: 80%;
-    height: 40%;
+    width: 90%;
+    max-width: 350px;
+    min-height: 300px;
+    max-height: 576px;
     position: relative;
     border-radius: .7em;
 
@@ -45,7 +47,7 @@ form{
 }
 
 #container-image{
-    top: -21%;
+    top: -18%;
     padding: 15px;
     border-radius: 50%;
     position:absolute;
@@ -82,7 +84,7 @@ form{
 }
 #container-button{
     width: 95%;
-    margin-top: 10%;
+    margin-top: 30px;
     text-align: center;
 }
 #container-button button{
