@@ -1,0 +1,10 @@
+svg{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+}
+
+svg:hover{
+    scale: 1.1;
+}
